@@ -1,4 +1,29 @@
-## I. Sử dụng câu lệnh SELECT để viết các yêu cầu truy vấn dữ liệu sau đây:
+## 1. INSTALL PROJECT:
+#### 1.1 Clone project và cài đặt laravel
+- open terminal
+- git clone https://github.com/taitamfc/Advanced-SQL.git
+- cd Advanced-SQL
+- composer update
+
+#### 1.2 Cấu hình .env sau đó chạy lệnh để tạo bảng vào CSDL
+- php artisan make:model NhanVien --migration
+- php artisan make:model NhaCungCap --migration
+- php artisan make:model MatHang --migration
+- php artisan make:model LoaiHang --migration
+- php artisan make:model KhachHang --migration
+- php artisan make:model DonDatHang --migration
+- php artisan make:model ChiTietDatHang --migration
+
+#### 1.3 Chạy lệnh để nhập dữ liệu mẫu vào CSDL
+- php artisan db:seed --class=NHANVIEN
+- php artisan db:seed --class=NHACUNGCAP
+- php artisan db:seed --class=MATHANG
+- php artisan db:seed --class=LOAIHANG
+- php artisan db:seed --class=KHACHHANG
+- php artisan db:seed --class=DONDATHANG
+- php artisan db:seed --class=CHITIETDATHANG
+
+## 2. Sử dụng câu lệnh SELECT để viết các yêu cầu truy vấn dữ liệu sau đây:
 #### 2.1 Cho biết danh sách các đối tác cung cấp hàng cho công ty.
 #### 2.2 Mã hàng, tên hàng và số lượng của các mặt hàng hiện có trong công ty.
 #### 2.3  Họ tên và địa chỉ và năm bắt đầu làm việc của các nhân viên trong công ty.
@@ -34,7 +59,7 @@
 #### 2.32 Thống kê xem trong năm 2003, mỗi một mặt hàng trong mỗi tháng và trong cả năm bán được với số lượng bao nhiêu
 - Yêu cầu: Kết quả được hiển thị dưới dạng bảng, hai cột cột đầu là mã hàng và tên hàng, các cột còn lại tương ứng với các tháng từ 1 đến 12 và cả năm. Như vậy mỗi dòng trong kết quả cho biết số lượng hàng bán được mỗi tháng và trong cả năm của mỗi mặt hàng.
 
-## II. Sử dụng câu lệnh UPDATE để thực hiện các yêu cầu sau:
+## 3. Sử dụng câu lệnh UPDATE để thực hiện các yêu cầu sau:
 #### 2.33 Cập nhật lại giá trị trường NGAYCHUYENHANG của những bản ghi có NGAYCHUYENHANG chưa xác định (NULL)trong bảng DONDATHANG bằng với giá trị của trường NGAYDATHANG.
 #### 2.34 Tăng số lượng hàng của những mặt hàng do công ty VINAMILK cung cấp lên gấp đôi.
 #### 2.35 Cập nhật giá trị của trường NOIGIAOHANG trong bảng DONDATHANG bằng địa chỉ của khách hàng đối với những đơn đặt hàng chưa xác định được nơi giao hàng (giá trị trường NOIGIAOHANG bằng NULL).
@@ -44,7 +69,7 @@
 #### 2.39 Giảm 25% lương của những nhân viên trong năm 2003 không lập được bất kỳ đơn đặt hàng nào.
 #### 2.40 Giả sử trong bảng DONDATHANG có thêm trường SOTIEN cho biết số tiền mà khách hàng phải trả trong mỗi đơn đặt hàng.Hãy tính giá trị cho trường này.
 
-## III.Thực hiện các yêu cầu dưới đây bằng câu lệnh DELETE.
+## 4.Thực hiện các yêu cầu dưới đây bằng câu lệnh DELETE.
 #### 2.41 Xoá khỏi bảng NHANVIEN những nhân viên đã làm việc trong công ty quá 40 năm.
 #### 2.42 Xoá những đơn đặt hàng trước năm 2000 ra khỏi cơ sở dữ liệu.
 #### 2.43 Xoá khỏi bảng LOAIHANG những loại hàng hiện không có mặt hàng.
