@@ -19,7 +19,7 @@ class DONDATHANG extends Seeder
     {
         //xoa toan bo du lieu va reset ID ve 1
         DB::table('DONDATHANG')->truncate();
-        $limit = 40;
+        $limit = 50;
         for ($i = 0; $i < $limit; $i++) {
             $data = [
                 'MAKHACHHANG'   => rand(1,14),
@@ -34,8 +34,8 @@ class DONDATHANG extends Seeder
     }
 
     private function randomOrderDay(){
-        $min        = strtotime("1 years ago");
-        $max        = strtotime("6 month ago");
+        $min        = strtotime("23 years ago");
+        $max        = strtotime("18 years ago");
         $rand_time  = rand($min, $max);
         $birth_date = date('Y-m-d', $rand_time);
         return $birth_date;

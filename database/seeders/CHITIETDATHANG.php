@@ -22,7 +22,7 @@ class CHITIETDATHANG extends Seeder
         $limit = 50;
         for ($i = 0; $i < $limit; $i++) {
             $data = [
-                'SOHOADON'      => rand(1,40),
+                'SOHOADON'      => rand(1,50),
                 'MAHANG'        => rand(1,100),
                 'GIABAN'        => rand (10000*10, 50000*10),
                 'SOLUONG'       => rand(1,3),
