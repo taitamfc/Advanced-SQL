@@ -1,5 +1,5 @@
 # I. Sử dụng câu lệnh SELECT để viết các yêu cầu truy vấn dữ liệu sau đây:
-## 2.1 Cho biết danh sách các đối tác cung cấp hàng cho công ty.
+### 2.1 Cho biết danh sách các đối tác cung cấp hàng cho công ty.
 ## 2.2 Mã hàng, tên hàng và số lượng của các mặt hàng hiện có trong công ty.
 ## 2.3  Họ tên và địa chỉ và năm bắt đầu làm việc của các nhân viên trong công ty.
 ## 2.4  Địa chỉ và điện thoại của nhà cung cấp có tên giao dịch VINAMILK là gì?
