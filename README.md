@@ -1,14 +1,12 @@
 # I. Sử dụng câu lệnh SELECT để viết các yêu cầu truy vấn dữ liệu sau đây:
-# 2.1 Cho biết danh sách các đối tác cung cấp hàng cho công ty.
+## 2.1 Cho biết danh sách các đối tác cung cấp hàng cho công ty.
 # 2.2 Mã hàng, tên hàng và số lượng của các mặt hàng hiện có trong công ty.
 # 2.3  Họ tên và địa chỉ và năm bắt đầu làm việc của các nhân viên trong công ty.
 # 2.4  Địa chỉ và điện thoại của nhà cung cấp có tên giao dịch VINAMILK là gì?
-# 2.5 Cho biết mã và tên của các mặt hàng có giá lớn hơn 100000 và số lượng hiện có ít 
-hơn 50.
+# 2.5 Cho biết mã và tên của các mặt hàng có giá lớn hơn 100000 và số lượng hiện có ít hơn 50.
 # 2.6  Cho biết mỗi mặt hàng trong công ty do ai cung cấp.
 # 2.7  Công ty Việt Tiến đã cung cấp những mặt hàng nào?
-# 2.8 Loại hàng thực phẩm do những công ty nào cung cấp và địa chỉ của các công ty đó
-là gì?
+# 2.8 Loại hàng thực phẩm do những công ty nào cung cấp và địa chỉ của các công ty đó là gì?
 # 2.9 Những khách hàng nào (tên giao dịch) đã đặt mua mặt hàng Sữa hộp XYZ của công ty?
 # 2.10 Đơn đặt hàng số 1 do ai đặt và do nhân viên nào lập, thời gian và địa điểm giao hàng là ở đâu?
 # 2.11 Hãy cho biết số tiền lương mà công ty phải trả cho mỗi nhân viên là bao nhiêu (lương = lương cơ bản + phụ cấp).
