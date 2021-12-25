@@ -6,13 +6,7 @@
 - composer update
 
 #### 1.2 Cấu hình .env sau đó chạy lệnh để tạo bảng vào CSDL
-- php artisan make:model NhanVien --migration
-- php artisan make:model NhaCungCap --migration
-- php artisan make:model MatHang --migration
-- php artisan make:model LoaiHang --migration
-- php artisan make:model KhachHang --migration
-- php artisan make:model DonDatHang --migration
-- php artisan make:model ChiTietDatHang --migration
+- php artisan migrate
 
 #### 1.3 Chạy lệnh để nhập dữ liệu mẫu vào CSDL
 - php artisan db:seed --class=NHANVIEN
