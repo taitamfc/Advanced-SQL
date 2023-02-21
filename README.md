@@ -4,6 +4,8 @@
 - git clone https://github.com/taitamfc/Advanced-SQL.git
 - cd Advanced-SQL
 - composer update
+- cp .env.example .env
+- php artisan key:generate
 
 #### 1.2 Cấu hình .env sau đó chạy lệnh để tạo bảng vào CSDL
 - php artisan migrate
