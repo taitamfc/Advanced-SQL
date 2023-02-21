@@ -13,6 +13,13 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        $this->call(NHANVIEN::class);
+        $this->call(NHACUNGCAP::class);
+        $this->call(MATHANG::class);
+        $this->call(LOAIHANG::class);
+        $this->call(KHACHHANG::class);
+        $this->call(DONDATHANG::class);
+        $this->call(CHITIETDATHANG::class);
+   
     }
 }
