@@ -9,13 +9,14 @@
 - php artisan migrate
 
 #### 1.3 Chạy lệnh để nhập dữ liệu mẫu vào CSDL
-- php artisan db:seed --class=NHANVIEN
-- php artisan db:seed --class=NHACUNGCAP
-- php artisan db:seed --class=MATHANG
-- php artisan db:seed --class=LOAIHANG
-- php artisan db:seed --class=KHACHHANG
-- php artisan db:seed --class=DONDATHANG
-- php artisan db:seed --class=CHITIETDATHANG
+- php artisan db:seed
+- //php artisan db:seed --class=NHANVIEN
+- //php artisan db:seed --class=NHACUNGCAP
+- //php artisan db:seed --class=MATHANG
+- //php artisan db:seed --class=LOAIHANG
+- //php artisan db:seed --class=KHACHHANG
+- //php artisan db:seed --class=DONDATHANG
+- //php artisan db:seed --class=CHITIETDATHANG
 
 ## 2. Sử dụng câu lệnh SELECT để viết các yêu cầu truy vấn dữ liệu sau đây:
 #### 2.1 Cho biết danh sách các đối tác cung cấp hàng cho công ty.
